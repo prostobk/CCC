@@ -1,6 +1,4 @@
-﻿int numberDay;
-
-Console.WriteLine("Введите число: ");
+﻿Console.WriteLine("Введите число: ");
 string? numberString = Console.ReadLine();
 int numberInt = Convert.ToInt32(numberString);
 
