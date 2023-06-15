@@ -5,6 +5,13 @@
 // 918 -> 1
 Console.WriteLine("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int num1 = number / 10;
-int num2 = num1 % 10;
-Console.WriteLine(num2);
+if (number < 100 || number > 999)
+{
+    Console.WriteLine("Вы ввели не трёхзначное число");
+}
+else
+{
+    int num1 = number / 10;
+    int num2 = num1 % 10;
+    Console.WriteLine(num2);
+}
