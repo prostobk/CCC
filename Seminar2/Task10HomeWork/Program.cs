@@ -11,7 +11,6 @@ if (number < 100 || number > 999)
 }
 else
 {
-    int num1 = number / 10;
-    int num2 = num1 % 10;
-    Console.WriteLine(num2);
+    int num1 = number / 10 % 10;
+    Console.WriteLine(num1);
 }
