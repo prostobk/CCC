@@ -5,7 +5,14 @@
 Console.WriteLine("Введите число N");
 int n = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= n; i++)
+if (n > 1)
 {
-    Console.WriteLine(Math.Pow(i, 3));
+    for (int i = 1; i <= n; i++)
+    {
+        Console.WriteLine(Math.Pow(i, 3));
+    }
+}
+else
+{
+    Console.WriteLine("Число должно быть положительным!");
 }
